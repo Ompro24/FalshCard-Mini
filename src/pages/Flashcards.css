@@ -1,0 +1,38 @@
+.flashcards {
+  text-align: center;
+  padding-top: 30px;
+}
+
+.flashcards-title {
+  font-size: 28px;
+  color: #1e3a5f;
+  margin-bottom: 8px;
+}
+
+.flashcards-counter {
+  font-size: 16px;
+  color: #555555;
+  margin-bottom: 24px;
+}
+
+.flashcard-buttons {
+  margin-top: 24px;
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+
+.nav-button {
+  background-color: #ffffff;
+  color: #1e3a5f;
+  font-size: 15px;
+  padding: 10px 22px;
+  border: 1px solid #1e3a5f;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.nav-button:hover {
+  background-color: #1e3a5f;
+  color: #ffffff;
+}
