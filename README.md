@@ -55,14 +55,41 @@ To stop the server, press **Ctrl+C** in the terminal.
 ## Project structure
 
 ```text
-src/
-├── components/       Reusable UI components, including the navbar and flashcard
-├── data/             Flashcard terms and definitions
-├── pages/            Home, Flashcards, and About pages
-├── App.jsx           Shared layout and route definitions
-├── App.css           App-level styles
-└── index.css         Global styles
+Dev-Term-Flashcards/
+├── docs/
+│   └── screenshots/
+│       ├── about.png
+│       ├── flashcards.png
+│       └── home.png
+├── src/
+│   ├── components/
+│   │   ├── Flashcard.css
+│   │   ├── Flashcard.jsx
+│   │   ├── Navbar.css
+│   │   └── Navbar.jsx
+│   ├── data/
+│   │   └── flashcards.js
+│   ├── pages/
+│   │   ├── About.css
+│   │   ├── About.jsx
+│   │   ├── Flashcards.css
+│   │   ├── Flashcards.jsx
+│   │   ├── Home.css
+│   │   └── Home.jsx
+│   ├── App.css
+│   ├── App.jsx
+│   ├── index.css
+│   └── main.jsx
+├── .gitignore
+├── eslint.config.js
+├── index.html
+├── package-lock.json
+├── package.json
+├── README.md
+└── vite.config.js
 ```
+
+`node_modules/` and `dist/` are generated locally and are excluded from the repository.
 
 ## How the flashcards work
 
