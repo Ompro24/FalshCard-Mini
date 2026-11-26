@@ -2,6 +2,20 @@
 
 A beginner-friendly React app for learning programming terminology with interactive flashcards. Each card shows a term on the front and its definition when flipped.
 
+## Screenshots
+
+### Home
+
+![Home page](docs/screenshots/home.png)
+
+### Flashcards
+
+![Flashcards page](docs/screenshots/flashcards.png)
+
+### About
+
+![About page](docs/screenshots/about.png)
+
 ## Features
 
 - Browse programming terms one card at a time
@@ -44,10 +58,10 @@ To stop the server, press **Ctrl+C** in the terminal.
 src/
 ├── components/       Reusable UI components, including the navbar and flashcard
 ├── data/             Flashcard terms and definitions
-├── pages/             Home, Flashcards, and About pages
-├── App.jsx            Shared layout and route definitions
-├── App.css            App-level styles
-└── index.css          Global styles
+├── pages/            Home, Flashcards, and About pages
+├── App.jsx           Shared layout and route definitions
+├── App.css           App-level styles
+└── index.css         Global styles
 ```
 
 ## How the flashcards work
